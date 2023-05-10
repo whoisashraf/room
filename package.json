@@ -10,9 +10,9 @@
 	"scripts": {
 		"start": "parcel",
 		"build": "parcel build --public-url ./",
-		"predeploy": "rm -rf dist && parcel build index.html",
-    	"deploy": "gh-pages -d dist"
+    	"live": "rm -rf dist/ && pnpm build && gh-pages -d dist"
 	},
+	"homepage": "https://github.com/whoisashraf/room",
 	"dependencies": {
 		"alpinejs": "^3.12.0",
 		"gh-pages": "^5.0.0",
