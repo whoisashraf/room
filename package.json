@@ -1,7 +1,7 @@
 {
 	"name": "room-landing-page",
 	"source": "./index.html",
-	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"browserslist": "defaults",
 	"@parcel/transformer-css": {
 		"drafts": {
 			"nesting": true
