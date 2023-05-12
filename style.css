@@ -51,10 +51,6 @@ nav a:hover::after {
 
 }
 
-.bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
 
 @supports not (--tw-bg-opacity: 1) {
     .bg-black {
